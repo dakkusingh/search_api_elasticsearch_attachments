@@ -1,12 +1,12 @@
 # Search API Elasticsearch Attachments
 [![CircleCI](https://circleci.com/gh/dakkusingh/search_api_elasticsearch_attachments.svg?style=svg)](https://circleci.com/gh/dakkusingh/search_api_elasticsearch_attachments)
 
-Elasticsearch is generally used to index data of types like string, 
-number, date, etc. 
-However, what if you wanted to index a file like a .pdf or a .doc 
+Elasticsearch is generally used to index data of types like string,
+number, date, etc.
+However, what if you wanted to index a file like a .pdf or a .doc
 directly and make it searchable?
 
-This module allows Drupal to index files (attachments) to Elasticsearch by 
+This module allows Drupal to index files (attachments) to Elasticsearch by
 making use of Elasticsearch data type "attachment".
 
 ![Search_API_Elasticsearch_Attachments](https://www.drupal.org/files/search_api_elasticsearch_attachments.jpg)
@@ -20,9 +20,9 @@ This module requires:
 * Elasticsearch `ingest-attachment` plugin
 
 ## Elasticsearch Plugin Installation
-The first step is to install the Elasticsearch plugin: `ingest-attachment`, 
-which enables ES to recognise the "attachment" data type. In turn, it uses 
-Apache Tika for content extraction and supports several file types such as 
+The first step is to install the Elasticsearch plugin: `ingest-attachment`,
+which enables ES to recognise the "attachment" data type. In turn, it uses
+Apache Tika for content extraction and supports several file types such as
 .pdf, .doc, .xls, .rtf, .html, .odt, etc.
 
 ```
@@ -41,7 +41,7 @@ You have to choose the correct versions of the module depending on your
 Elastic Search Server setup. Please see the table below for
 compatibility.
 
-If you are using Elasticsearch Connector 8.x-5.x, 
+If you are using Elasticsearch Connector 8.x-5.x,
 please use 8.x-5.x of
 *search_api_elasticsearch_attachments* module.
 
