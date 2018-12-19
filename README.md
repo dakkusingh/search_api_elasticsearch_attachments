@@ -32,7 +32,7 @@ Thats the hard work done.
 
 ## Install this module with composer
 ```
-composer require 'drupal/search_api_elasticsearch_attachments:^1.2'
+composer require composer require 'drupal/search_api_elasticsearch_attachments:5.x-dev'
 ```
 
 ## Version Information (Important)
@@ -59,7 +59,7 @@ please use 8.x-5.x of
     <td>Mapper Attachments Plugin</td>
   </tr>
   <tr>
-    <td>8.x-5.x (todo)</td>
+    <td>8.x-5.x</td>
     <td>8.x-5.x</td>
     <td>5x</td>
     <td>Ingest Attachment Processor Plugin</td>
