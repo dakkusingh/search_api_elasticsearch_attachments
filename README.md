@@ -15,8 +15,8 @@ making use of Elasticsearch data type "attachment".
 This module requires:
 * Drupal 8
 * Search API Module
-* Elasticsearch Connector module (Alpha 1)
-* Elasticsearch Version 6.2
+* Elasticsearch Connector module (8.x-5.x)
+* Elasticsearch Version 5.6
 * Elasticsearch `ingest-attachment` plugin
 
 ## Elasticsearch Plugin Installation
@@ -35,16 +35,16 @@ Thats the hard work done.
 composer require drupal/search_api_elasticsearch_attachments
 ```
 
-## Elasticsearch Connector module (Alpha 1) compatibility.
-Alpha 1 version of Elasticsearch Connector module requires a number of patches.
-If you are using Alpha 1, please use 8.x-6.0-alpha1 of
+## Elasticsearch Connector module (5.x) compatibility.
+8.x-5.0-alpha3 version of Elasticsearch Connector module requires a number of patches.
+If you are using 5.x, please use 8.x-5.x-dev of
 *search_api_elasticsearch_attachments* module.
 
 This will auto install the *search_api_elasticsearch_attachments* module
 and also install the *elasticsearch_connector* module
 
-There are a number of patches required to elasticsearch_connector module
-(Alpha 1 only). These are applied automatically by composer.
+There are a number of patches required to elasticsearch_connector module.
+These are applied automatically by composer.
 Sit back and let composer do the hard work for you. Patches that will
 get auto applied by composer:
 * Issue #2918138 by dakku: Support for alterParams()
